@@ -25,7 +25,7 @@ spring:
 ribbon:
   eager-load:
     enabled: true
-    clients: admin-service
+    clients: admin
   Httpclient:
     enable: false
   OkHttp:
