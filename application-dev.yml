@@ -14,4 +14,13 @@ spring:
       max-file-size: 1000MB
       max-request-size: 1000MB
 
-
+ribbon:
+  eager-load:
+    enabled: true
+    clients: pig-auth,pig-upms-service
+  Httpclient:
+    enable: false
+  OkHttp:
+    enable: true
+  ReadTimeout: 30000
+  ConnectTimeout: 30000
