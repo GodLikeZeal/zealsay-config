@@ -1,2 +1,22 @@
+#加密配置
+jasypt:
+  encryptor:
+    password: lengleng
+
 server:
-  port: 8081
+  tomcat:
+    max-threads: 500 # Maximum amount of worker threads.
+    min-spare-threads: 50 # Minimum amount of worker threads
+
+spring:
+  redis:
+    remote: true        #cachecloud 获取
+    host: localhost
+    port: 6379
+    password: zeal
+  http:
+    multipart:
+      max-file-size: 1000MB
+      max-request-size: 1000MB
+
+
