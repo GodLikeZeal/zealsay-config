@@ -4,16 +4,7 @@ server:
 zipkin:
   collector:
     rabbitmq:
-      addresses: localhost:5682
-      password: lengleng
-      username: pig
+      addresses: localhost:15672
+      password: zeal
+      username: zeal
       queue: zipkin
-  storage:
-    type: elasticsearch
-    elasticsearch:
-      hosts: localhost:9200
-      cluster: elasticsearch
-      index: zipkin
-      max-requests: 64
-      index-shards: 5
-      index-replicas: 1
