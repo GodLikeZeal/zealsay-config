@@ -21,6 +21,8 @@ spring:
     multipart:
       max-file-size: 1000MB
       max-request-size: 1000MB
+  zipkin:
+      base-url: http://localhost:8072
 
 ribbon:
   eager-load:
