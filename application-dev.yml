@@ -1,6 +1,3 @@
-euruka:
-  port: 8071
-
 server:
   tomcat:
     max-threads: 500 # Maximum amount of worker threads.
