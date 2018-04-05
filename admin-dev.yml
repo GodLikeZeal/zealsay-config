@@ -11,6 +11,4 @@ qiniu:
   bucket: pigcloud
   qiniuHost: http://p0hpm86wj.bkt.clouddn.com/
 
-logging:
-  config: classpath:logback.xml
 
