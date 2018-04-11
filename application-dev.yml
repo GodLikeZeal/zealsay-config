@@ -1,8 +1,4 @@
 #加密配置
-jasypt:
-  encryptor:
-    password: lengleng
-
 euruka:
   port: 8071
 
