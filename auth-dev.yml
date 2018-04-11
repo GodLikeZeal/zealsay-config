@@ -24,16 +24,16 @@ sharding:
     defaultDataSourceName:
       type: com.zaxxer.hikari.HikariDataSource
       driver-class-name: com.mysql.jdbc.Driver
-      username: zeal
-      password: zeal3230
+      username: ENC(XXGCn3CQ/3tD+FirBWOLVA==)
+      password: ENC(CbdsIOa3prgNuKIouOilttuB5bAeJaTi)
       jdbc-url: jdbc:mysql://localhost:3306/zealsay?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
     datasource:
       names: ds
       ds:
         type: com.zaxxer.hikari.HikariDataSource
         driver-class-name: com.mysql.jdbc.Driver
-        username: zeal
-        password: zeal3230
+        username: ENC(XXGCn3CQ/3tD+FirBWOLVA==)
+        password: ENC(CbdsIOa3prgNuKIouOilttuB5bAeJaTi)
         jdbc-url: jdbc:mysql://localhost:3306/zealsay?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
     config:
       sharding:
@@ -67,8 +67,8 @@ mybatis-plus:
 
 zeal:
   auth:
-    clientId: zeal
-    clientSecret: zeal
+    clientId: ENC(XXGCn3CQ/3tD+FirBWOLVA==)
+    clientSecret: ENC(CbdsIOa3prgNuKIouOilttuB5bAeJaTi)
     scope: server
   social:
     qq:
