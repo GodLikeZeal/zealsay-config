@@ -67,8 +67,8 @@ mybatis-plus:
 
 zeal:
   auth:
-    clientId: ENC(Ho5VxMWMMIzfIEE8/WxVzA==)
-    clientSecret: ENC(Ho5VxMWMMIzfIEE8/WxVzA==)
+    clientId: zeal
+    clientSecret: zeal
     scope: server
   social:
     qq:
