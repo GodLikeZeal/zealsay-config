@@ -18,7 +18,6 @@ spring:
     suffix: .ftl
     template-loader-path: classpath:/templates/
 
-
 zeal:
   auth:
     clientId: ENC(Ho5VxMWMMIzfIEE8/WxVzA==)
