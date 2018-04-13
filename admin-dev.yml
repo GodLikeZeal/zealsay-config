@@ -13,21 +13,6 @@ spring:
     username: zeal
     password: zeal3230
 
-  datasource:
-    type: com.zaxxer.hikari.HikariDataSource
-    hikari:
-      driver-class-name:  com.mysql.jdbc.Driver
-      jdbc-url: jdbc:mysql://localhost:3306/zealsay?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
-      username: zeal
-      password: zeal3230
-      minimum-idle: 5
-      maximum-pool-size: 15
-      auto-commit: true
-      idle-timeout: 30000
-      pool-name: DatebookHikariCP
-      max-lifetime: 1800000
-      connection-timeout: 30000
-      connection-test-query: SELECT 1
 
 #mybaits-plus配置，修改主键类型，mapper.xml、type 别名等
 mybatis-plus:
