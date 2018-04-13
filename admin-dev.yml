@@ -40,7 +40,6 @@ sharding:
       sharding:
         tables:
           sys_log:
-            actual-data-nodes: ds.sys_log_${0..1}
             table-strategy:
               inline:
                 sharding-column: id
