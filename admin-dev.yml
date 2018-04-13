@@ -18,7 +18,7 @@ spring:
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:mysql://localhost:3306/zealsay?characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=false
     password: zeal
-    username: zeal
+    username: zeal3230
     hikari:
       driver-class-name:  com.mysql.jdbc.Driver
       minimum-idle: 5
