@@ -44,7 +44,6 @@ sharding:
             table-strategy:
               inline:
                 sharding-column: id
-                algorithm-expression: sys_log_${0..1}
             key-generator-column-name: id
 
 #mybaits-plus配置，修改主键类型，mapper.xml、type 别名等
