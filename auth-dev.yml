@@ -42,4 +42,6 @@ urls:
     - /loggers/**
     - /mobile/token
 
+logging:
+  config: classpath:logback.xml
 
