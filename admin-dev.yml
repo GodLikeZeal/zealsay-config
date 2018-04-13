@@ -11,13 +11,7 @@ spring:
     host: localhost
     port: 5672
     username: zeal
-    password: zeal
-  zipkin:
-    rabbitmq:
-      queue: zipkin
-  sleuth:
-    sampler:
-      percentage: 1.0
+    password: zeal3230
 
 # 分库分表支持
 sharding:
